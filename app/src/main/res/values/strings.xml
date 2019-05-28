@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Coolalways</string>
+    <string name="Btn_01">リターン</string>
+    <string name="Str_t2">新規アカウント登録</string>
+    <string name="Str_t0">メールアドレス</string>
+    <string name="Str_t1">パスワード</string>
+    <string name="PassWord">Pass</string>
+    <string name="mail">E-mail</string>
+    <string name="PassWord_0">再確認</string>
+    <string name="Str_t3">再確認</string>
+    <string name="Btn_02">次へ</string>
+    <string name="Btn_03">ログイン</string>
+    <string name="tV_0">まだコミュニティに参加してません</string>
+    <string name="Btn_0">コミュニティに参加する</string>
+    <string name="Btn_1">コミュニティを作成する</string>
+    <string name="Str_party">コミュニティに参加する</string>
+    <string name="Str_t5">コミュニティ名を入力してください</string>
+    <string name="ImgBtn_0">参加</string>
+    <string name="Btn_04">キャンセル</string>
+    <string name="Str_make">コミュニティを作成する</string>
+    <string name="Str_t6">作成するコミュニティ名を入力してください</string>
+    <string name="Btn_07">編集</string>
+    <string name="Str_t7">投稿一覧</string>
+</resources>

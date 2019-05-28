@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iBtn_00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/tV_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginRight="182dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="111dp"
+        android:text="@string/Str_t0"
+        app:layout_constraintBottom_toTopOf="@+id/eT_01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tV_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginRight="210dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Str_t1"
+        app:layout_constraintBottom_toTopOf="@+id/eT_01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT_01"
+        app:layout_constraintVertical_bias="0.957"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <EditText
+        android:id="@+id/eT_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="65dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:text="@string/PassWord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV_01" />
+
+    <EditText
+        android:id="@+id/eT_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/mail"
+        app:layout_constraintBottom_toTopOf="@+id/tV_01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV_0" />
+
+    <ImageButton
+        android:id="@+id/iBtb_01"
+        android:layout_width="152dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT_01"
+        app:layout_constraintVertical_bias="0.77"
+        app:layout_constraintWidth_max="wrap"
+        app:srcCompat="@drawable/login" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/return_btn"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
